@@ -1,0 +1,13 @@
+<html>
+<body>
+    <h1>Image List</h1>
+
+    {% if gallery %}
+        {% for photo in gallery %}
+            <p><img src="{{ photo.photo.url }}" width="300px"></p>
+            <p>{{ photo.description }}</p>
+        {% endfor %}
+    {% endif %}
+
+</body>
+</html>
