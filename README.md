@@ -5,7 +5,7 @@ This is a Django based RESTful service that can be used to store, update, retrie
 Steps:
 -----
 
-1. Clone or download the repository.
+1. Clone or downlocdscsad the repository.
 2. Open project folder.
 3. Open command prompt(admin) in that location.
 4. Type python manage.py get_access_key to get token to access the API. This access key will be used to authenticate all API calls.
