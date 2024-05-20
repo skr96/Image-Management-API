@@ -4,7 +4,7 @@ This is a Django based RESTful service that can be used to store, update, retrie
 
 Steps:
 -----
-
+jnln
 1. Clone or download the repository.
 2. Open project folder.
 3. Open command prompt(admin) in that location.
