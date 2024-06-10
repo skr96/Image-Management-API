@@ -1,37 +1,38 @@
-Image Management API
+Image Management API dkfngldfv klfsdf
 
 This is a Django based RESTful service that can be used to store, update, retrieve and delete images. The image will be stored on the file-system where this service lives.
 
-Steps:
+Steps:dsmklv s 
 -----
 
 1. Clone or download the repository.
-2. Open project folder.
+2. Open project folder. sdfgsd 
 3. Open command prompt(admin) in that location.
 4. Type python manage.py get_access_key to get token to access the API. This access key will be used to authenticate all API calls.
-5. Type python manage.py runserver to get run the server.
+5. Type python manage.py runserver to get run the s sf sdfsderver.
 
 Now, a user can store, update, retrieve and delete images through the API using the token key provided to him.
-
+d fsd sd
 The requests can be made using curl or Postman.
 
-Functionalities:
+Functionalities: sdf sd s
 ---------------
 (All the functionalities mentioned below were tested using Postman. Please use token key to perform these functionalities. )
 
 1. To upload image:
 
-Method : POST
+Method : POSTdf dsf sdf 
 URL : http://127.0.0.1:8000/image/
 Header : {'Authorization' : 'Token token_key'}
-Body : form-data : key=image, type=file, value=filename.extension
+Body : form-data : key=image, type=file, value=filename.extensionfd sfdss 
 
-(Note: 
-	1. The uploaded file must be a valid image file, else it will not be uploaded.
-	2. The max upload size for file is 50 MB.
-	3. The image will be compressed (preserving the quality) before being stored.
-	
-2. To list all images linked to the given access key
+(Note: sdf sdfds 
+	1. The uploaded file must be a valid image file, else it will not be uploaded.dfs d
+
+ fsdfsd
+
+  fds 
+  fds
 
 Method : GET 	
 URL :  http://127.0.0.1:8000/image/
@@ -41,7 +42,7 @@ The API will return a list of all image files linked to the given token key.
 
 3. To display(render) a particular image:
 
-Method : GET 	
+Method : GET 	 sdsdfsd
 URL :  http://127.0.0.1:8000/image/image_name.extension/
 Header : {'Authorization' : 'Token token_key'}
 
