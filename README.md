@@ -1,4 +1,4 @@
-Image Management API fdsjnfsdnjklf nsd,f sd
+Image Management API
 
 This is a Django based RESTful service that can be used to store, update, retrieve and delete images. The image will be stored on the file-system where this service lives.
 
