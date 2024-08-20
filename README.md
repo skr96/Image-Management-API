@@ -1,4 +1,4 @@
-Image Management API
+Image Management API fsfslsfosdfl
 
 This is a Django based RESTful service that can be used to store, update, retrieve and delete images. The image will be stored on the file-system where this service lives.
 
@@ -6,7 +6,7 @@ Steps:
 -----
 
 1. Clone or download the repository.
-2. Open project folder.
+2. Open project folder. fd fsdf s fds fsd
 3. Open command prompt(admin) in that location.
 4. Type python manage.py get_access_key to get token to access the API. This access key will be used to authenticate all API calls.
 5. Type python manage.py runserver to get run the server.
