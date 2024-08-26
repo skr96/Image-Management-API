@@ -2,7 +2,7 @@ Image Management API fvsdcdscsd s
 
 This is a Django based RESTful service that can be used to store, update, retrieve and delete images. The image will be stored on the file-system where this service lives.
 
-Steps:
+Steps: sd .s f.sd f.sd.f sd.,f s
 -----
  dfs sdf sdfsddfs
 1. Clone or download the repository.
